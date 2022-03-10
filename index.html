@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <h1>Wellcome to Color-Flipper</h1>
+      <div class="btn-container">
+        <button class="random" onclick="randomColor()">Random Color!</button>
+        <label for="colorbg">Or select here: </label>
+        <input type="color" name="colorbg" id="colorbg" class="colorinput" onchange="selectColor()"/>
+      </div>
+      <p class="current">Current Color: <span id="currentColor"></span></p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
